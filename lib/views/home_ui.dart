@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_ui_app/views/A01Page_ui.dart';
+import 'package:flutter_speed_ui_app/views/B01Page_ui.dart';
+import 'package:flutter_speed_ui_app/views/E01Page_ui.dart';
 
 class HomeUi extends StatefulWidget {
   const HomeUi({super.key});
@@ -12,7 +14,8 @@ class _HomeUiState extends State<HomeUi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF2E004E), 
+      backgroundColor: const Color(0xFF2E004E),
+       
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(40.0), 
@@ -37,7 +40,7 @@ class _HomeUiState extends State<HomeUi> {
                   onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const A01Page())
+                    MaterialPageRoute(builder: (context) => const A01PageUI())
                   );  
                   },
                   child: Text(
@@ -64,7 +67,12 @@ class _HomeUiState extends State<HomeUi> {
 
                 
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const B01pageui())
+                  );  
+                  },
                   child: Text(
                     'Go to B Page',
                     style: TextStyle(
@@ -135,9 +143,15 @@ class _HomeUiState extends State<HomeUi> {
                 SizedBox(
                   height: 20.0,
                 ),
+                
                
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const E01PageUI())
+                  );  
+                  },
                   child: Text(
                     'Go to E Page',
                     style: TextStyle(
