@@ -30,7 +30,7 @@ A new Flutter project.
 
 <img width="250" height="2796" alt="localhost_52223_(iPhone 14 Pro Max) (13)" src="https://github.com/user-attachments/assets/499c33c1-b9ae-4de6-ad40-60e2510d14b8" />
 
-<img width="1250" height="2796" alt="localhost_52223_(iPhone 14 Pro Max) (14)" src="https://github.com/user-attachments/assets/6354630a-2f6f-4111-8913-197c9644379e" />
+<img width="250" height="2796" alt="localhost_52223_(iPhone 14 Pro Max) (14)" src="https://github.com/user-attachments/assets/6354630a-2f6f-4111-8913-197c9644379e" />
 
 <img width="250" height="2796" alt="localhost_52223_(iPhone 14 Pro Max) (15)" src="https://github.com/user-attachments/assets/67157eed-8037-4a7d-8c88-5357e0a51df1" />
 
